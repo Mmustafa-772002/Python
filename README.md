@@ -126,14 +126,24 @@ Welcome to the Python Programming Practice repository! This repository is a comp
 1. [Python Hello World Program](link-to-hello-world-program)
 ``` python
 print("Hello, World!")
-```
 
+```
+output :
+``` 
+Hello, World!
+```
 2. [Python Program to Print Your Name](link-to-name-program)
 
 ``` python 
 name = input("Enter your name: ")
 print("Hello, " + name)
 ```
+output :
+```
+Enter your name: John
+Hello, John
+```
+
 
 3. [Python Program to Print an Integer Entered By the User](link-to-integer-program)
 
@@ -141,6 +151,12 @@ print("Hello, " + name)
 num = int(input("Enter an integer :"))
 print("You entered:", num)
 ```
+output :
+```
+Enter an integer : 10
+You entered: 10
+```
+
 4. [Python Program to Add Two Numbers](link-to-addition-program)
 
 ``` python 
@@ -149,6 +165,13 @@ num2 = int(input("Enter second number: "))
 sum= num1+num2
 print("the sum is : " + sum )
 ```
+output :
+```
+Enter first number: 10
+Enter second number: 20
+the sum is : 30
+```
+
 5. [Python Program to Check Whether a Number is Prime or Not](link-to-prime-check-program)
 
 ``` python
@@ -164,6 +187,12 @@ else:
     print(num, "is not a prime number")
 ```
 
+output :
+```
+enter your number : 10
+10 is not a prime number
+```
+
 
 6. [Python Program to Multiply Two Numbers](link-to-multiplication-program)
 ``` python
@@ -173,11 +202,24 @@ product = num1 * num2
 print("The product is: ", product)
 ```
 
+output :
+```
+Enter first number: 10
+Enter second number: 20
+The product is: 200
+```
+
 7. [Python Program to Print the ASCII Value of a Character](link-to-ascii-program)
 ``` python
 char = input("Enter a character: ")
 print("The ASCII value of", char, "is", ord(char))
 # to cheack the ascii value of a character the ord() function is used
+```
+
+output :
+```
+Enter a character: A
+The ASCII value of A is 65
 ```
 
 8. [Python Program to Swap Two Numbers](link-to-swap-program)
@@ -188,6 +230,13 @@ farenhit = int(input ("enter the temprature in celcius :"))
 celsius = (farenhit - 32) * 5.0/9.0
 print("the temprature in celsius is : " + celsius)
 ```        
+
+output :
+```
+enter the temprature in farenhit : 100
+the temprature in celsius is : 37.77777777777778
+```
+
 10. [Python Program to Find the Size of int, float, double, and char](link-to-size-program)
 ``` python 
 import sys
@@ -199,6 +248,14 @@ print("Size of char: ", sys.getsizeof(str()))
 # the sys module is used to get the size of the data types 
 ```
 
+output :
+```
+Size of integer:  28
+Size of float:  24
+Size of double:  24
+Size of char:  54
+```
+
 11. [Python Program to Add Two Complex Numbers](link-to-complex-program)
 
 ``` python
@@ -207,6 +264,12 @@ num2 = 4 + 5j
 sum = num1 + num2
 print("The sum of", num1, "and", num2, "is", sum)
 ```
+
+output :
+```
+The sum of (2+3j) and (4+5j) is (6+8j)
+```
+
 12. [Python Program to Print Prime Numbers From 1 to N](link-to-prime-numbers-program)
 13. [Python Program to Find Simple Interest](link-to-simple-interest-program)
 
@@ -216,6 +279,14 @@ rate = float(input("Enter the rate of interest: "))
 time = float(input("Enter the time period: "))
 simple_interest = (principal * rate * time) / 100
 print("The Simple Interest is: ", simple_interest)
+```
+
+output :
+```
+Enter the principal amount: 1000
+Enter the rate of interest: 5
+Enter the time period: 2
+The Simple Interest is: 100.0
 ```
 
 14. [Python Program to Find Compound Interest](link-to-compound-interest-program)
@@ -230,6 +301,15 @@ compound_interest = amount - principal
 print("The Compound Interest is: ", compound_interest)
 ```
 
+output :
+```
+Enter the principal amount: 1000
+Enter the rate of interest: 5
+Enter the time period: 2
+Enter the number of times that interest is compounded per year: 12
+The Compound Interest is: 103.81216000000005
+```
+
 15. [Python Program for Area and Perimeter Of Rectangle](link-to-rectangle-area-perimeter-program)
 
 ``` python
@@ -239,6 +319,46 @@ area = length * width
 perimeter = 2 * (length + width)
 print("The area of the rectangle is: ", area)
 print("The perimeter of the rectangle is: ", perimeter)
+```
+
+output :
+```
+Enter the length of the rectangle: 10
+Enter the width of the rectangle: 5
+The area of the rectangle is: 50.0
+The perimeter of the rectangle is: 30.0
+```
+
+16. [Python Program for Area and Circumference Of Circle](link-to-circle-area-circumference-program)
+
+``` python
+radius = float(input("Enter the radius of the circle: "))
+area = 3.14 * radius * radius
+circumference = 2 * 3.14 * radius
+print("The area of the circle is: ", area)
+print("The circumference of the circle is: ", circumference)
+```
+
+output :
+```
+Enter the radius of the circle: 5
+The area of the circle is: 78.5
+The circumference of the circle is: 31.400000000000002
+```
+
+17. [Python Program to Convert Kilometers to Miles](link-to-km-to-miles-program)
+
+``` python
+
+kilometers = float(input("Enter distance in kilometers: "))
+miles = kilometers * 0.621371
+print("The distance in miles is: ", miles)
+```
+
+output :
+```
+Enter distance in kilometers: 10
+The distance in miles is: 6.21371
 ```
 
 
