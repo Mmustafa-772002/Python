@@ -97,14 +97,20 @@ print("clear:", num2)
 
 # Other functions
 num = [5, 3, 1, 7, 9, 2]
+# len() - This will give the length of the list
 print("Length:", len(num))
+# min() - This will give the minimum value of the list
 print("Minimum:", min(num))
+# max() - This will give the maximum value of the list
 print("Maximum:", max(num))
+# sum() - This will give the sum of the list
 print("Sum:", sum(num))
 
 # Conversion functions
-data_list = [1, 2, 3, 4]
+data_list = [1, 2, 4, 4]
+# Convert list to tuple, set, and dictionary
 data_tuple = tuple(data_list)
+
 data_set = set(data_list)
 data_dict = dict(enumerate(data_list))
 print("List:", data_list)
