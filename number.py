@@ -185,11 +185,22 @@ num2 = float(input("enter the second number :"))
 result= num1+num2
 print(" the sum of the number is  :"+ str(result))
 
+#output :
+# enter the first number :5.5
+# enter the second number :6.5
+# the sum of the number is  :12.0
+
+
 # one is float and another is int
 num3 = int(input("enter the first number :"))
 num4 = float(input("enter the second number :"))
 result = int(num3)+float(num4)
 print(" the sum of the number is  :"+ str(result))
+
+# output : 
+# enter the first number :5
+# enter the second number :6.5
+#     the sum of the number is  :11.5
 
 # the result will print the float output bcoz the float number is added to the int number
 
