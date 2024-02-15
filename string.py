@@ -1,5 +1,5 @@
 # to access the character of a string, use the square brackets for slicing along with the index or indices to obtain your character or substring.
-# For example −
+# For example :
 word = " this is pyhton programming language"
 print(word[6])
 
