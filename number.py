@@ -289,8 +289,3 @@ print(" the sum of the number is  :" + str(result))
 
 # the result will print the float output bcoz the float number is added to the int number
 
-
-
-
-
-
