@@ -124,20 +124,123 @@ Welcome to the Python Programming Practice repository! This repository is a comp
 ### Basic Python Programs
 
 1. [Python Hello World Program](link-to-hello-world-program)
+``` python
+print("Hello, World!")
+```
+
 2. [Python Program to Print Your Name](link-to-name-program)
+
+``` python 
+name = input("Enter your name: ")
+print("Hello, " + name)
+```
+
 3. [Python Program to Print an Integer Entered By the User](link-to-integer-program)
+
+``` python
+num = int(input("Enter an integer :"))
+print("You entered:", num)
+```
 4. [Python Program to Add Two Numbers](link-to-addition-program)
+
+``` python 
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+sum= num1+num2
+print("the sum is : " + sum )
+```
 5. [Python Program to Check Whether a Number is Prime or Not](link-to-prime-check-program)
+
+``` python
+num=int(input("enter your number :"))
+if num > 1:
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+else:
+    print(num, "is not a prime number")
+```
+
+
 6. [Python Program to Multiply Two Numbers](link-to-multiplication-program)
+``` python
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+product = num1 * num2
+print("The product is: ", product)
+```
+
 7. [Python Program to Print the ASCII Value of a Character](link-to-ascii-program)
+``` python
+char = input("Enter a character: ")
+print("The ASCII value of", char, "is", ord(char))
+# to cheack the ascii value of a character the ord() function is used
+```
+
 8. [Python Program to Swap Two Numbers](link-to-swap-program)
 9. [Python Program to Calculate Fahrenheit to Celsius](link-to-fahrenheit-to-celsius-program)
+
+``` python
+farenhit = int(input ("enter the temprature in celcius :"))
+celsius = (farenhit - 32) * 5.0/9.0
+print("the temprature in celsius is : " + celsius)
+```        
 10. [Python Program to Find the Size of int, float, double, and char](link-to-size-program)
+``` python 
+import sys
+print("Size of integer: ", sys.getsizeof(int()))
+print("Size of float: ", sys.getsizeof(float()))
+print("Size of double: ", sys.getsizeof(float()))
+print("Size of char: ", sys.getsizeof(str()))
+
+# the sys module is used to get the size of the data types 
+```
+
 11. [Python Program to Add Two Complex Numbers](link-to-complex-program)
+
+``` python
+num1 = 2 + 3j
+num2 = 4 + 5j
+sum = num1 + num2
+print("The sum of", num1, "and", num2, "is", sum)
+```
 12. [Python Program to Print Prime Numbers From 1 to N](link-to-prime-numbers-program)
 13. [Python Program to Find Simple Interest](link-to-simple-interest-program)
+
+``` python
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time period: "))
+simple_interest = (principal * rate * time) / 100
+print("The Simple Interest is: ", simple_interest)
+```
+
 14. [Python Program to Find Compound Interest](link-to-compound-interest-program)
+
+``` python
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time period: "))
+n = float(input("Enter the number of times that interest is compounded per year: "))
+amount = principal * (pow((1 + rate / 100), time)) 
+compound_interest = amount - principal
+print("The Compound Interest is: ", compound_interest)
+```
+
 15. [Python Program for Area and Perimeter Of Rectangle](link-to-rectangle-area-perimeter-program)
+
+``` python
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+area = length * width
+perimeter = 2 * (length + width)
+print("The area of the rectangle is: ", area)
+print("The perimeter of the rectangle is: ", perimeter)
+```
+
 
 ### Control Flow Programs
 

@@ -232,6 +232,7 @@ print(" the arc cosine value of the number is : " + str(acos(a)))
 # factorial() : this function is used to find the factorial of the number
 # gcd() : this function is used to find the greatest common divisor of the given numbers
 # isfinite() : this function is used to check whether the given number is finite or not
+# ord() : this function is used to find the unicode value of the given character 
 
 # the math module is used to perform the mathematical operations in python
 
