@@ -2,6 +2,24 @@
 # such as string, integer, float, boolean, etc.
 # A list is a collection of items that are ordered and changeable.
 
+# quick look at list
+# append()
+# extend()
+# insert()
+# remove()
+# pop()
+# index()
+# len()
+# sort()
+# revserse()    
+# clear()
+# copy()
+# count()
+# list()
+# tuple()
+# Dictionary()
+# set()
+
 friends = ["Ali", "Ahmed", "Asad", "Kashif"]
 
 # This is a list of friends
@@ -31,8 +49,6 @@ print(friends)
 friends.pop()   # This will remove the last element from the list
 print(friends)
 
-friends.pop(1)  # This will remove the element at the specific index
-print(friends)
 
 print(friends.index("Asad"))   # This will give the index of the specific element
 print(friends.count("Ali"))    # This will give the count of the specific element
