@@ -1,6 +1,38 @@
 from math import sqrt, floor
 from math import *
 
+# math function list in python
+# abs() : this function is used to find the absolute value of the number
+# pow() : this function is used to find the power of the number
+# sqrt() : this function is used to find the square root of the number
+# max() : this function is used to find the maximum number from the given numbers
+# min() : this function is used to find the minimum number from the given numbers
+# sum() : this function is used to find the sum of the given numbers
+# floor() : this function is used to find the floor value of the given number
+# ceil() : this function is used to find the ceiling value of the given number
+# round() : this function is used to round off the number
+# pi() : this function is used to find the value of pi
+# e() : this function is used to find the value of e
+# log() : this function is used to find the natural logarithm of the number
+# log10() : this function is used to find the base 10 logarithm of the number
+# exp() : this function is used to find the exponential value of the number
+# sin() : this function is used to find the sine value of the number
+# cos() : this function is used to find the cosine value of the number
+# tan() : this function is used to find the tangent value of the number
+# asin() : this function is used to find the arc sine value of the number
+# acos() : this function is used to find the arc cosine value of the number
+# atan() : this function is used to find the arc tangent value of the number
+# count() : this function is used to count the number of elements in the given list
+# factorial() : this function is used to find the factorial of the number
+# gcd() : this function is used to find the greatest common divisor of the given numbers
+# isfinite() : this function is used to check whether the given number is finite or not
+# ord() : this function is used to find the unicode value of the given character 
+# radians() : this function is used to convert the degree to radians
+# degrees() : this function is used to convert the radians to degree
+# trunc() : this function is used to remove the decimal part of the number
+# hypot() : this function is used to find the hypotenuse of the given numbers
+# fsum() : this function is used to find the sum of the given numbers
+# expm1() : this function is used to find the exponential value of the number minus 1
 # the above line is used to import the sqrt and floor functions from the math module
 # this is the math module in that we are importing the sqrt and floor functions  from the math module
 # this module is used to perform the mathematical operations in python
@@ -206,33 +238,6 @@ print(" the arc cosine value of the number is : " + str(acos(a)))
 
 # output : the arc cosine value of the number is : 1.0471975511965979
 
-
-# math function list in python
-# abs() : this function is used to find the absolute value of the number
-# pow() : this function is used to find the power of the number
-# sqrt() : this function is used to find the square root of the number
-# max() : this function is used to find the maximum number from the given numbers
-# min() : this function is used to find the minimum number from the given numbers
-# sum() : this function is used to find the sum of the given numbers
-# floor() : this function is used to find the floor value of the given number
-# ceil() : this function is used to find the ceiling value of the given number
-# round() : this function is used to round off the number
-# pi() : this function is used to find the value of pi
-# e() : this function is used to find the value of e
-# log() : this function is used to find the natural logarithm of the number
-# log10() : this function is used to find the base 10 logarithm of the number
-# exp() : this function is used to find the exponential value of the number
-# sin() : this function is used to find the sine value of the number
-# cos() : this function is used to find the cosine value of the number
-# tan() : this function is used to find the tangent value of the number
-# asin() : this function is used to find the arc sine value of the number
-# acos() : this function is used to find the arc cosine value of the number
-# atan() : this function is used to find the arc tangent value of the number
-# count() : this function is used to count the number of elements in the given list
-# factorial() : this function is used to find the factorial of the number
-# gcd() : this function is used to find the greatest common divisor of the given numbers
-# isfinite() : this function is used to check whether the given number is finite or not
-# ord() : this function is used to find the unicode value of the given character 
 
 # the math module is used to perform the mathematical operations in python
 
