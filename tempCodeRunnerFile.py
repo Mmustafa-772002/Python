@@ -1,2 +1,1 @@
-print(" ")
-print(" but she  ") 
+cube

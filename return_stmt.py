@@ -2,7 +2,7 @@
 # The value can be of any type.
 # The return statement is used to exit a function and go back to the place from where it was called    
 def cube(num):
-    num*num*num
+    num*num*num  # this will not return the value of the cube of the number
     
 print(cube(3))
 
