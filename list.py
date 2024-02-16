@@ -137,7 +137,10 @@ data_dict = dict(enumerate(data_list))
 print("List:", data_list) 
 # tuples are the same as lists but they are immutable and cannot be changed once it is created 
 print("Tuple:", data_tuple)
+print("the index in tuple : " +str(data_tuple[2]))
 # set is a collection of unordered and unindexed elements
 print("Set:", data_set)
 # Dictionary is a collection of key-value pairs 
 print("Dictionary:", data_dict)
+
+
