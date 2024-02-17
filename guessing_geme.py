@@ -12,3 +12,15 @@ while guess != secret_word and guess_count < guess_limit:
         print("You have " + str(guess_limit - guess_count) + " tries left")
     else:
         print("You have reached the maximum number of tries")   
+        
+        
+        
+num = int (input(" enter a number :"))
+if(num %2  ):
+    print(" the number is even")
+
+elif(num == 0):
+    print("the number is zero")
+    
+else:
+    print(" the number is odd")
