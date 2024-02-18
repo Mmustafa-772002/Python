@@ -52,3 +52,22 @@ for index in range(10):
     else:
         print("Not first iteration")
     
+    
+for i in range (5):
+    print("*",i)
+    i+=1
+    
+# star pattern
+for i in range(5):
+    for k in range(i+1):
+        print("*",end=" ")
+        
+# print pyramid pattern
+for i in range(5):
+    for j in range(5-i):
+        print(" ",end="")
+    for k in range(i+1):
+        print("*",end=" ")
+    print()
+    
+    
