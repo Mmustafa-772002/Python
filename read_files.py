@@ -18,3 +18,11 @@ employee_file.close()
 employee_file =  open("employee.txt","a")
 print(employee_file.write("Toby - Human Resources"))
 employee_file.close()
+
+employee_file =  open("employee1.txt","w")
+print(employee_file.write("Toby - Human Resources"))
+employee_file.close()
+
+employee_file =  open("index.html","a")
+print(employee_file.write("<p>hello</p>"))
+employee_file.close()
